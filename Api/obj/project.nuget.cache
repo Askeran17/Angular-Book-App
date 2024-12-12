@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2ZeGQ7+5gM4=",
+  "dgSpecHash": "IvLRHzgTXLI=",
   "success": true,
-  "projectFilePath": "/Users/mihailataev/Desktop/Site/testapi/Api/Api.csproj",
+  "projectFilePath": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/Api.csproj",
   "expectedPackageFiles": [
     "/Users/mihailataev/.nuget/packages/dotnetenv/3.1.1/dotnetenv.3.1.1.nupkg.sha512",
     "/Users/mihailataev/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

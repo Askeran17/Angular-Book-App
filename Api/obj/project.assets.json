@@ -8306,11 +8306,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mihailataev/Desktop/Site/testapi/Api/Api.csproj",
+      "projectUniqueName": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/Api.csproj",
       "projectName": "Api",
-      "projectPath": "/Users/mihailataev/Desktop/Site/testapi/Api/Api.csproj",
+      "projectPath": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/Api.csproj",
       "packagesPath": "/Users/mihailataev/.nuget/packages/",
-      "outputPath": "/Users/mihailataev/Desktop/Site/testapi/Api/obj/",
+      "outputPath": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mihailataev/.nuget/NuGet/NuGet.Config"
