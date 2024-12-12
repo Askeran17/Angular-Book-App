@@ -1,0 +1,29 @@
+<!-- src/app/quotes/quotes.component.html -->
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Mina citat</h2>
+
+  <form (ngSubmit)="addQuote()" class="mb-4">
+    <div class="mb-3">
+      <label for="quoteText" class="form-label">Citat</label>
+      <input type="text" id="quoteText" class="form-control" [(ngModel)]="newQuote.text" name="text" required>
+    </div>
+    <div class="mb-3">
+      <label for="quoteAuthor" class="form-label">Författare</label>
+      <input type="text" id="quoteAuthor" class="form-control" [(ngModel)]="newQuote.author" name="author" required>
+    </div>
+    <button type="submit" class="btn btn-success">{{ isEditMode ? 'Uppdatera' : 'Lägg till' }}</button>
+  </form>
+
+  <ul class="list-group mb-3">
+    <li *ngFor="let quote of quotes" class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+      <blockquote class="blockquote mb-0">
+        <p>{{ quote.text }}</p>
+        <footer class="blockquote-footer">{{ quote.author }}</footer>
+      </blockquote>
+      <div class="mt-2 mt-md-0">
+        <button class="btn btn-primary btn-sm me-2" (click)="editQuote(quote.id)">Redigera</button>
+        <button class="btn btn-danger btn-sm" (click)="deleteQuote(quote.id)">Radera</button>
+      </div>
+    </li>
+  </ul>
+</div>

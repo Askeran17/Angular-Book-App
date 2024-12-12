@@ -1,0 +1,49 @@
+/* src/app/book-list/book-list.component.css */
+.book-list-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.book-list-container h2 {
+  text-align: center;
+}
+
+.book-list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.book-list-container li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.book-list-container button {
+  margin-left: 0.5em;
+}
+
+.book-list-text {
+  margin-left: 6px;
+}
+
+.radera-btn {
+  margin-right: 6px;
+}
+
+@media (max-width: 768px) {
+  .book-list-container li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .book-list-container div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
