@@ -1,0 +1,1 @@
+web: dotnet Api/bin/Debug/net8.0/Api.dll
