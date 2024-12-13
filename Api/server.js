@@ -6,11 +6,10 @@ const bodyParser = require('body-parser');
 const authenticateToken = require('./auth');
 
 const app = express();
-app.use(cors()); 
+app.use(cors());
 app.use(bodyParser.json());
 
-const users = []; 
-
+const users = [];
 
 const registerAdmin = () => {
   const username = 'admin';
@@ -44,6 +43,8 @@ app.get('/api/protected', authenticateToken, (req, res) => {
   res.send('This is a protected route');
 });
 
-app.listen(3000, () => {
-  console.log('Server is running on port 3000');
+// Start the app by listening on the default Heroku port
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
