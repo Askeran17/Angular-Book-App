@@ -1,0 +1,11 @@
+{
+    "name": "testapi",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+      "crud-app"
+    ],
+    "engines": {
+      "node": "18.x"
+    }
+  }
