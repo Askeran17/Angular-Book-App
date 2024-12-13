@@ -80,10 +80,10 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "kniga-app:build:production"
+              "buildTarget": "kniga-app:build:production"
             },
             "development": {
-              "browserTarget": "kniga-app:build:development"
+              "buildTarget": "kniga-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -91,7 +91,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "kniga-app:build"
+            "buildTarget": "kniga-app:build"
           }
         },
         "test": {

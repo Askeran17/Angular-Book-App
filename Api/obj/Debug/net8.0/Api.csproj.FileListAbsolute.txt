@@ -146,7 +146,6 @@
 /Users/mihailataev/Desktop/Site/testapi/Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/mihailataev/Desktop/Site/testapi/Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/mihailataev/Desktop/Site/testapi/Api/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
-/Users/mihailataev/Desktop/Site/testapi_backup/Api/bin/Debug/net8.0/Api.staticwebassets.endpoints.json
 /Users/mihailataev/Desktop/Site/testapi_backup/Api/bin/Debug/net8.0/appsettings.Development.json
 /Users/mihailataev/Desktop/Site/testapi_backup/Api/bin/Debug/net8.0/appsettings.json
 /Users/mihailataev/Desktop/Site/testapi_backup/Api/bin/Debug/net8.0/package-lock.json
@@ -284,9 +283,7 @@
 /Users/mihailataev/Desktop/Site/testapi_backup/Api/obj/Debug/net8.0/scopedcss/bundle/Api.styles.css
 /Users/mihailataev/Desktop/Site/testapi_backup/Api/obj/Debug/net8.0/staticwebassets.build.json
 /Users/mihailataev/Desktop/Site/testapi_backup/Api/obj/Debug/net8.0/staticwebassets.development.json
-/Users/mihailataev/Desktop/Site/testapi_backup/Api/obj/Debug/net8.0/staticwebassets.build.endpoints.json
 /Users/mihailataev/Desktop/Site/testapi_backup/Api/obj/Debug/net8.0/staticwebassets/msbuild.Api.Microsoft.AspNetCore.StaticWebAssets.props
-/Users/mihailataev/Desktop/Site/testapi_backup/Api/obj/Debug/net8.0/staticwebassets/msbuild.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 /Users/mihailataev/Desktop/Site/testapi_backup/Api/obj/Debug/net8.0/staticwebassets/msbuild.build.Api.props
 /Users/mihailataev/Desktop/Site/testapi_backup/Api/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Api.props
 /Users/mihailataev/Desktop/Site/testapi_backup/Api/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Api.props
