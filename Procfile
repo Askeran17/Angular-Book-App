@@ -1,1 +1,1 @@
-web: dotnet Api/bin/Debug/net8.0/Api.dll
+web: cd Api && dotnet publish -c Release -o out && cd out && dotnet Api.dll
