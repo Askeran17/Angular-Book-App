@@ -3,11 +3,13 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "concurrently \"npm run start:angular\" \"npm run start:dotnet\"",
+    "start:angular": "node server.js",
+    "start:dotnet": "cd Api && dotnet publish -c Release -o out && cd out && dotnet Api.dll",
+    "build": "ng build --prod",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "heroku-postbuild": "npm install && npm run build --prod"
+    "heroku-postbuild": "npm install && npm run build"
   },
   "private": true,
   "dependencies": {
@@ -26,7 +28,8 @@
     "font-awesome": "^4.7.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.14.3"
+    "zone.js": "~0.14.3",
+    "concurrently": "^7.0.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.0.0",
