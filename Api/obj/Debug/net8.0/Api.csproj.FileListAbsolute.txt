@@ -294,3 +294,4 @@
 /Users/mihailataev/Desktop/Site/testapi_backup/Api/obj/Debug/net8.0/Api.pdb
 /Users/mihailataev/Desktop/Site/testapi_backup/Api/obj/Debug/net8.0/Api.genruntimeconfig.cache
 /Users/mihailataev/Desktop/Site/testapi_backup/Api/obj/Debug/net8.0/ref/Api.dll
+/Users/mihailataev/Desktop/Site/testapi_backup/Api/bin/Debug/net8.0/Api.staticwebassets.runtime.json

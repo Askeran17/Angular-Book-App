@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "llrbuzIYQAIzOVzCT1dMYbgtako286gVg/Pj7offB04=",
+  "Hash": "La/Lrsa+hHu09w7MZpgmt0Z865sTbty9cSI5JjL8tIU=",
   "Source": "Api",
   "BasePath": "_content/Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Api/wwwroot",
+      "Source": "Api",
+      "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
+      "BasePath": "_content/Api",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }
