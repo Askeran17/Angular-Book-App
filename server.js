@@ -1,9 +1,52 @@
 const express = require('express');
 const path = require('path');
+const bodyParser = require('body-parser');
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
 const app = express();
+
+// Middleware
+app.use(bodyParser.json());
 
 // Serve static files from the Api/wwwroot directory
 app.use(express.static(path.join(__dirname, 'Api/wwwroot')));
+
+// In-memory user storage (for demonstration purposes)
+const users = [];
+
+// Register admin user
+const registerAdmin = () => {
+  const username = 'admin';
+  const password = 'admin';
+  const hashedPassword = bcrypt.hashSync(password, 8);
+  users.push({ username, password: hashedPassword });
+  console.log('Admin user registered');
+};
+
+registerAdmin();
+
+// API routes
+app.post('/api/auth/login', (req, res) => {
+  const { username, password } = req.body;
+  const user = users.find(u => u.username === username);
+  if (user && bcrypt.compareSync(password, user.password)) {
+    const token = jwt.sign({ username: user.username }, 'your_jwt_secret');
+    res.json({ token });
+  } else {
+    res.status(401).send('Invalid credentials');
+  }
+});
+
+app.post('/api/auth/register', (req, res) => {
+  const { username, password } = req.body;
+  const hashedPassword = bcrypt.hashSync(password, 8);
+  users.push({ username, password: hashedPassword });
+  res.status(201).send('User registered');
+});
+
+app.get('/api/protected', (req, res) => {
+  res.send('This is a protected route');
+});
 
 // Catch all other routes and return the index file
 app.get('*', (req, res) => {
