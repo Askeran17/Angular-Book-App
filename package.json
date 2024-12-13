@@ -6,7 +6,7 @@
     "ngx-cookie-service": "^19.0.0"
   },
   "devDependencies": {
-    "@angular/cli": "^15.0.0"
+    "@angular/cli": "^18.0.0"
   },
   "engines": {
     "node": "16.x"
