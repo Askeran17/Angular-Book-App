@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using MyApp.Data;
+using Npgsql;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,7 +12,8 @@ var builder = WebApplication.CreateBuilder(args);
 DotNetEnv.Env.Load("../.env");
 
 // Debug output to verify environment variables
-Console.WriteLine($"DATABASE_URL: {Environment.GetEnvironmentVariable("DATABASE_URL")}");
+var databaseUrl = Environment.GetEnvironmentVariable("DATABASE_URL");
+Console.WriteLine($"DATABASE_URL: {databaseUrl}");
 
 // Add services to the container.
 builder.Services.AddControllers();
@@ -63,10 +65,42 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization();
 
-// Configure PostgreSQL database
-var connectionString = Environment.GetEnvironmentVariable("DATABASE_URL");
+// Manually parse the PostgreSQL connection string from the environment variable
+if (string.IsNullOrEmpty(databaseUrl))
+{
+    throw new ArgumentNullException("DATABASE_URL", "Database URL is not configured.");
+}
+
+var connString = new NpgsqlConnectionStringBuilder();
+
+var keyValues = databaseUrl.Split(';');
+foreach (var keyValue in keyValues)
+{
+    var pair = keyValue.Split('=');
+    if (pair.Length == 2)
+    {
+        switch (pair[0].Trim())
+        {
+            case "Host":
+                connString.Host = pair[1].Trim();
+                break;
+            case "Database":
+                connString.Database = pair[1].Trim();
+                break;
+            case "Username":
+                connString.Username = pair[1].Trim();
+                break;
+            case "Password":
+                connString.Password = pair[1].Trim();
+                break;
+        }
+    }
+}
+
+connString.SslMode = SslMode.Require;
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(connectionString));
+    options.UseNpgsql(connString.ConnectionString));
 
 // Add Swagger
 builder.Services.AddSwaggerGen(c =>
@@ -97,3 +131,4 @@ app.MapControllers();
 app.Run();
 
 public partial class Program { }
+
