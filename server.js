@@ -26,12 +26,6 @@ const registerAdmin = () => {
 
 registerAdmin();
 
-// Proxy API requests to .NET Core server
-app.use('/api', createProxyMiddleware({
-    target: process.env.API_URL || 'http://localhost:5089', // URL вашего .NET 8 сервера
-    changeOrigin: true,
-}));
-
 // API routes for authentication (handled by Node.js)
 app.post('/api/auth/login', (req, res) => {
   const { username, password } = req.body;
@@ -51,9 +45,17 @@ app.post('/api/auth/register', (req, res) => {
   res.status(201).send('User registered');
 });
 
+// Protected route example
 app.get('/api/protected', (req, res) => {
   res.send('This is a protected route');
 });
+
+// Proxy API requests to .NET Core server
+app.use('/api', createProxyMiddleware({
+    target: process.env.API_URL || 'http://localhost:5089/api', // URL вашего .NET 8 сервера
+    changeOrigin: true,
+    logLevel: 'debug', // Добавьте это для логирования
+}));
 
 // Catch all other routes and return the index file
 app.get('*', (req, res) => {
