@@ -1,22 +1,15 @@
-@local_Api_HostAddress = http://localhost:5089
-@prod_Api_HostAddress = https://angular-book-app.onrender.com
-
-### Используйте локальный адрес для разработки
-# @current_Api_HostAddress = {{local_Api_HostAddress}}
-
-### Используйте развернутый адрес для продакшена
-@current_Api_HostAddress = {{prod_Api_HostAddress}}
+@Api_HostAddress = https://angular-book-app.onrender.com/api
 
 ### Получение всех книг
-GET {{current_Api_HostAddress}}/api/Books
+GET {{Api_HostAddress}}/Books
 Accept: application/json
 
 ### Получение книги по ID
-GET {{current_Api_HostAddress}}/api/Books/1
+GET {{Api_HostAddress}}/Books/1
 Accept: application/json
 
 ### Добавление новой книги
-POST {{current_Api_HostAddress}}/api/Books
+POST {{Api_HostAddress}}/Books
 Content-Type: application/json
 
 {
@@ -26,7 +19,7 @@ Content-Type: application/json
 }
 
 ### Обновление книги по ID
-PUT {{current_Api_HostAddress}}/api/Books/1
+PUT {{Api_HostAddress}}/Books/1
 Content-Type: application/json
 
 {
@@ -37,4 +30,4 @@ Content-Type: application/json
 }
 
 ### Удаление книги по ID
-DELETE {{current_Api_HostAddress}}/api/Books/1
+DELETE {{Api_HostAddress}}/Books/1

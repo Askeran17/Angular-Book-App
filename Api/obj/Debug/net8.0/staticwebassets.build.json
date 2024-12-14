@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "L/zgbAMKIYaNzbo5pyFBOHLXOm5VyKWuV1wwsUbSoAU=",
+  "Hash": "qiSsNkYyRzF/eLgItkLw0K/ngORT8VQQhae3HubGxk8=",
   "Source": "Api",
   "BasePath": "_content/Api",
   "Mode": "Default",
@@ -150,12 +150,12 @@
       "OriginalItemSpec": "wwwroot/index.html"
     },
     {
-      "Identity": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/main.aee4871b34bf1fd2.js",
+      "Identity": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/main.dfc8f5e11f7a605b.js",
       "SourceId": "Api",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "main.aee4871b34bf1fd2.js",
+      "RelativePath": "main.dfc8f5e11f7a605b.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,7 +166,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/main.aee4871b34bf1fd2.js"
+      "OriginalItemSpec": "wwwroot/main.dfc8f5e11f7a605b.js"
     },
     {
       "Identity": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/polyfills.e89b70d436a56044.js",
