@@ -1,6 +1,40 @@
-@Api_HostAddress = http://localhost:5089
+@local_Api_HostAddress = http://localhost:5089
+@prod_Api_HostAddress = https://angular-book-app.onrender.com
 
-GET {{Api_HostAddress}}/weatherforecast/
+### Используйте локальный адрес для разработки
+# @current_Api_HostAddress = {{local_Api_HostAddress}}
+
+### Используйте развернутый адрес для продакшена
+@current_Api_HostAddress = {{prod_Api_HostAddress}}
+
+### Получение всех книг
+GET {{current_Api_HostAddress}}/api/Books
 Accept: application/json
 
-###
+### Получение книги по ID
+GET {{current_Api_HostAddress}}/api/Books/1
+Accept: application/json
+
+### Добавление новой книги
+POST {{current_Api_HostAddress}}/api/Books
+Content-Type: application/json
+
+{
+  "title": "New Book",
+  "author": "Author Name",
+  "publishDate": "2023-10-01T00:00:00Z"
+}
+
+### Обновление книги по ID
+PUT {{current_Api_HostAddress}}/api/Books/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "Updated Book",
+  "author": "Updated Author",
+  "publishDate": "2023-10-01T00:00:00Z"
+}
+
+### Удаление книги по ID
+DELETE {{current_Api_HostAddress}}/api/Books/1
