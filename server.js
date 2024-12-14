@@ -28,7 +28,7 @@ registerAdmin();
 
 // Proxy API requests to .NET Core server
 app.use('/api', createProxyMiddleware({
-    target: process.env.API_URL || 'http://localhost:5089', // URL вашего .NET Core сервера
+    target: process.env.API_URL || 'http://localhost:5089', // URL вашего .NET 8 сервера
     changeOrigin: true,
 }));
 
