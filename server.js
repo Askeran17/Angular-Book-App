@@ -3,7 +3,6 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
 
 // Middleware
@@ -26,13 +25,7 @@ const registerAdmin = () => {
 
 registerAdmin();
 
-// Proxy API requests to .NET Core server
-app.use('/api', createProxyMiddleware({
-    target: process.env.API_URL || 'http://localhost:5089', // URL вашего .NET 8 сервера
-    changeOrigin: true,
-}));
-
-// API routes for authentication (handled by Node.js)
+// API routes
 app.post('/api/auth/login', (req, res) => {
   const { username, password } = req.body;
   const user = users.find(u => u.username === username);
@@ -65,5 +58,4 @@ const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
-
 
