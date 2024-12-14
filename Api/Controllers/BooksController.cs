@@ -47,8 +47,11 @@ namespace MyApp.Controllers
         {
             book.PublishDate = DateTime.SpecifyKind(book.PublishDate, DateTimeKind.Utc);
             _context.Books.Add(book);
-            _inMemoryBooks.Add(book);
             await _context.SaveChangesAsync();
+
+            // Add to in-memory storage
+            _inMemoryBooks.Add(book);
+
             return CreatedAtAction(nameof(GetBooks), new { id = book.Id }, book);
         }
 
