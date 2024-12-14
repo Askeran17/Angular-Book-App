@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyApp.Data;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace MyApp.Controllers
@@ -10,6 +11,7 @@ namespace MyApp.Controllers
     public class BooksController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
+        private static List<Book> _inMemoryBooks = new List<Book>();
 
         public BooksController(ApplicationDbContext context)
         {
@@ -21,6 +23,12 @@ namespace MyApp.Controllers
         {
             var books = await _context.Books.ToListAsync();
             return Ok(books);
+        }
+
+        [HttpGet("in-memory")]
+        public IActionResult GetInMemoryBooks()
+        {
+            return Ok(_inMemoryBooks);
         }
 
         [HttpGet("{id}")]
@@ -39,6 +47,7 @@ namespace MyApp.Controllers
         {
             book.PublishDate = DateTime.SpecifyKind(book.PublishDate, DateTimeKind.Utc);
             _context.Books.Add(book);
+            _inMemoryBooks.Add(book);
             await _context.SaveChangesAsync();
             return CreatedAtAction(nameof(GetBooks), new { id = book.Id }, book);
         }
@@ -53,6 +62,13 @@ namespace MyApp.Controllers
 
             book.PublishDate = DateTime.SpecifyKind(book.PublishDate, DateTimeKind.Utc);
             _context.Entry(book).State = EntityState.Modified;
+
+            var inMemoryBook = _inMemoryBooks.Find(b => b.Id == id);
+            if (inMemoryBook != null)
+            {
+                _inMemoryBooks.Remove(inMemoryBook);
+                _inMemoryBooks.Add(book);
+            }
 
             try
             {
@@ -83,6 +99,7 @@ namespace MyApp.Controllers
             }
 
             _context.Books.Remove(book);
+            _inMemoryBooks.RemoveAll(b => b.Id == id);
             await _context.SaveChangesAsync();
 
             return NoContent();
