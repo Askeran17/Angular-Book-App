@@ -1,4 +1,3 @@
-// src/app/book-list/book-list.component.ts
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Book, BookService } from '../book.service';
@@ -15,6 +14,7 @@ import { AuthService } from '../auth.service';
 })
 export class BookListComponent implements OnInit {
   books: Book[] = [];
+  inMemoryBooks: Book[] = [];
 
   constructor(private bookService: BookService, private router: Router, private authService: AuthService) {}
 
@@ -23,12 +23,19 @@ export class BookListComponent implements OnInit {
       this.router.navigate(['/login']);
     } else {
       this.loadBooks();
+      this.loadInMemoryBooks();
     }
   }
 
   loadBooks(): void {
     this.bookService.getBooks().subscribe((books) => {
       this.books = books;
+    });
+  }
+
+  loadInMemoryBooks(): void {
+    this.bookService.getInMemoryBooks().subscribe((books) => {
+      this.inMemoryBooks = books;
     });
   }
 
@@ -44,6 +51,7 @@ export class BookListComponent implements OnInit {
     if (id !== undefined) {
       this.bookService.deleteBook(id).subscribe(() => {
         this.books = this.books.filter(book => book.id !== id);
+        this.inMemoryBooks = this.inMemoryBooks.filter(book => book.id !== id);
       });
     }
   }

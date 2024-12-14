@@ -22,6 +22,10 @@ export class BookService {
     return this.http.get<Book[]>(`${this.apiUrl}/Books`);
   }
 
+  getInMemoryBooks(): Observable<Book[]> {
+    return this.http.get<Book[]>(`${this.apiUrl}/Books/in-memory`);
+  }
+
   getBook(id: number): Observable<Book> {
     return this.http.get<Book>(`${this.apiUrl}/Books/${id}`);
   }

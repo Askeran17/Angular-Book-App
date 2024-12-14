@@ -1,4 +1,3 @@
-// src/app/book-form/book-form.component.ts
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { BookService, Book } from '../book.service';
