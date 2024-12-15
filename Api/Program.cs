@@ -19,12 +19,13 @@ Console.WriteLine($"DATABASE_URL: {databaseUrl}");
 builder.Services.AddControllers();
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(builder =>
-    {
-        builder.AllowAnyOrigin()
-               .AllowAnyMethod()
-               .AllowAnyHeader();
-    });
+    options.AddPolicy("AllowSpecificOrigin",
+        builder =>
+        {
+            builder.WithOrigins("https://angular-book-app.onrender.com")
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
 });
 
 // Configure JWT authentication
@@ -138,7 +139,7 @@ app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1")
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
-app.UseCors();
+app.UseCors("AllowSpecificOrigin");
 app.UseAuthentication();
 app.UseAuthorization();
 
