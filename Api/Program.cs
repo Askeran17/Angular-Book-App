@@ -5,8 +5,16 @@ using Microsoft.OpenApi.Models;
 using MyApp.Data;
 using Npgsql;
 using System.Text;
+using Yarp.ReverseProxy.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Load environment variables from .env file
+DotNetEnv.Env.Load("../.env");
+
+// Debug output to verify environment variables
+var databaseUrl = Environment.GetEnvironmentVariable("DATABASE_URL");
+Console.WriteLine($"DATABASE_URL: {databaseUrl}");
 
 // Add services to the container.
 builder.Services.AddControllers();
@@ -59,17 +67,90 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization();
 
-// Use connection string from appsettings.json
-var connString = builder.Configuration.GetConnectionString("DefaultConnection");
+// Parse the PostgreSQL connection string from the environment variable
+if (string.IsNullOrEmpty(databaseUrl))
+{
+    throw new ArgumentNullException("DATABASE_URL", "Database URL is not configured.");
+}
+
+var connString = new NpgsqlConnectionStringBuilder();
+
+if (databaseUrl.StartsWith("postgres://"))
+{
+    // Parse URL format
+    var databaseUri = new Uri(databaseUrl);
+    var userInfo = databaseUri.UserInfo.Split(':');
+
+    connString.Host = databaseUri.Host;
+    connString.Port = databaseUri.Port;
+    connString.Username = userInfo[0];
+    connString.Password = userInfo[1];
+    connString.Database = databaseUri.AbsolutePath.Trim('/');
+}
+else
+{
+    // Parse key-value format
+    var keyValues = databaseUrl.Split(';');
+    foreach (var keyValue in keyValues)
+    {
+        var pair = keyValue.Split('=');
+        if (pair.Length == 2)
+        {
+            switch (pair[0].Trim())
+            {
+                case "Host":
+                    connString.Host = pair[1].Trim();
+                    break;
+                case "Database":
+                    connString.Database = pair[1].Trim();
+                    break;
+                case "Username":
+                    connString.Username = pair[1].Trim();
+                    break;
+                case "Password":
+                    connString.Password = pair[1].Trim();
+                    break;
+            }
+        }
+    }
+}
+
+connString.SslMode = SslMode.Require;
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(connString));
+    options.UseNpgsql(connString.ConnectionString));
 
 // Add Swagger
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
 });
+
+// Add YARP reverse proxy
+builder.Services.AddReverseProxy()
+    .LoadFromMemory(new[]
+    {
+        new RouteConfig
+        {
+            RouteId = "angular",
+            ClusterId = "angular-cluster",
+            Match = new RouteMatch
+            {
+                Path = "{**catch-all}"
+            }
+        }
+    },
+    new[]
+    {
+        new ClusterConfig
+        {
+            ClusterId = "angular-cluster",
+            Destinations = new Dictionary<string, DestinationConfig>
+            {
+                { "angular-destination", new DestinationConfig { Address = "http://localhost:4200" } }
+            }
+        }
+    });
 
 var app = builder.Build();
 
@@ -88,6 +169,9 @@ app.UseRouting();
 app.UseCors("AllowSpecificOrigin");
 app.UseAuthentication();
 app.UseAuthorization();
+
+// Use YARP reverse proxy
+app.MapReverseProxy();
 
 app.MapControllers();
 
