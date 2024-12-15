@@ -1,33 +1,6 @@
-@Api_HostAddress = https://angular-book-app.onrender.com/api
+@Api_HostAddress = http://localhost:5089
 
-### Получение всех книг
-GET {{Api_HostAddress}}/Books
+GET {{Api_HostAddress}}/weatherforecast/
 Accept: application/json
 
-### Получение книги по ID
-GET {{Api_HostAddress}}/Books/1
-Accept: application/json
-
-### Добавление новой книги
-POST {{Api_HostAddress}}/Books
-Content-Type: application/json
-
-{
-  "title": "New Book",
-  "author": "Author Name",
-  "publishDate": "2023-10-01T00:00:00Z"
-}
-
-### Обновление книги по ID
-PUT {{Api_HostAddress}}/Books/1
-Content-Type: application/json
-
-{
-  "id": 1,
-  "title": "Updated Book",
-  "author": "Updated Author",
-  "publishDate": "2023-10-01T00:00:00Z"
-}
-
-### Удаление книги по ID
-DELETE {{Api_HostAddress}}/Books/1
+###
