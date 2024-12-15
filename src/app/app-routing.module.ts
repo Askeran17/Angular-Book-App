@@ -1,8 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BookListComponent } from './book-list/book-list.component';
-import { BookFormComponent } from './book-form/book-form.component';
-import { QuotesComponent } from './quotes/quotes.component';
 import { LoginComponent } from './login/login.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 
@@ -10,10 +7,9 @@ export const routes: Routes = [
   { path: '', redirectTo: '/welcome', pathMatch: 'full' },
   { path: 'welcome', component: WelcomeComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'book-list', component: BookListComponent },
-  { path: 'book-form', component: BookFormComponent },
-  { path: 'book-form/:id', component: BookFormComponent },
-  { path: 'quotes', component: QuotesComponent }
+  { path: 'book-list', loadChildren: () => import('./book-list/book-list.module').then(m => m.BookListModule) },
+  { path: 'book-form', loadChildren: () => import('./book-form/book-forum.module').then(m => m.BookFormModule) },
+  { path: 'quotes', loadChildren: () => import('./quotes/quotes.module').then(m => m.QuotesModule) }
 ];
 
 @NgModule({
