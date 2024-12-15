@@ -65,7 +65,7 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization();
 
-// Manually parse the PostgreSQL connection string from the environment variable
+// Parse the PostgreSQL connection string from the environment variable
 if (string.IsNullOrEmpty(databaseUrl))
 {
     throw new ArgumentNullException("DATABASE_URL", "Database URL is not configured.");
@@ -73,26 +73,42 @@ if (string.IsNullOrEmpty(databaseUrl))
 
 var connString = new NpgsqlConnectionStringBuilder();
 
-var keyValues = databaseUrl.Split(';');
-foreach (var keyValue in keyValues)
+if (databaseUrl.StartsWith("postgres://"))
 {
-    var pair = keyValue.Split('=');
-    if (pair.Length == 2)
+    // Parse URL format
+    var databaseUri = new Uri(databaseUrl);
+    var userInfo = databaseUri.UserInfo.Split(':');
+
+    connString.Host = databaseUri.Host;
+    connString.Port = databaseUri.Port;
+    connString.Username = userInfo[0];
+    connString.Password = userInfo[1];
+    connString.Database = databaseUri.AbsolutePath.Trim('/');
+}
+else
+{
+    // Parse key-value format
+    var keyValues = databaseUrl.Split(';');
+    foreach (var keyValue in keyValues)
     {
-        switch (pair[0].Trim())
+        var pair = keyValue.Split('=');
+        if (pair.Length == 2)
         {
-            case "Host":
-                connString.Host = pair[1].Trim();
-                break;
-            case "Database":
-                connString.Database = pair[1].Trim();
-                break;
-            case "Username":
-                connString.Username = pair[1].Trim();
-                break;
-            case "Password":
-                connString.Password = pair[1].Trim();
-                break;
+            switch (pair[0].Trim())
+            {
+                case "Host":
+                    connString.Host = pair[1].Trim();
+                    break;
+                case "Database":
+                    connString.Database = pair[1].Trim();
+                    break;
+                case "Username":
+                    connString.Username = pair[1].Trim();
+                    break;
+                case "Password":
+                    connString.Password = pair[1].Trim();
+                    break;
+            }
         }
     }
 }

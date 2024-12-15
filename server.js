@@ -55,6 +55,10 @@ app.use('/api', createProxyMiddleware({
     target: process.env.API_URL || 'http://localhost:5089/api', // URL вашего .NET 8 сервера
     changeOrigin: true,
     logLevel: 'debug', // Добавьте это для логирования
+    onError: (err, req, res) => {
+        console.error('Proxy error:', err);
+        res.status(500).send('Proxy error');
+    }
 }));
 
 // Catch all other routes and return the index file
