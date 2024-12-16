@@ -4,13 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "build": "ng build --configuration production --output-path=Api/wwwroot",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "postinstall": "ng build --configuration production --output-path=Api/wwwroot",
-    "heroku-postbuild": "ng build --configuration production --output-path=Api/wwwroot && cd Api && dotnet publish -c Release -o out && cd out && dotnet Api.dll --urls=http://*:5089"
+    "postinstall": "ng build --configuration production"
   },
   "private": true,
   "dependencies": {
@@ -27,16 +24,13 @@
     "@auth0/angular-jwt": "^5.2.0",
     "bcryptjs": "^2.4.3",
     "bootstrap": "^5.3.3",
-    "compression": "^1.7.5",
-    "concurrently": "^7.6.0",
-    "dotenv": "^10.0.0",
     "express": "^4.18.2",
     "font-awesome": "^4.7.0",
-    "http-proxy-middleware": "^2.0.6",
     "jsonwebtoken": "^8.5.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.14.3"
+    "zone.js": "~0.14.3",
+    "http-proxy-middleware": "^2.0.6"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.0.0",
@@ -54,7 +48,6 @@
     "typescript": "~5.4.2"
   },
   "engines": {
-    "node": "18.x",
-    "yarn": "1.x"
+    "node": "18.x"
   }
 }
