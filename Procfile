@@ -1,1 +1,1 @@
-web: concurrently "cd Api && dotnet run --urls=http://*:5089" "ng serve --port 4200"
+web: cd Api && dotnet Api.dll --urls=http://*:5089

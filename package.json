@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "concurrently \"cd Api && dotnet run --urls=http://*:5089\" \"ng serve --port 4200\"",
+    "start": "node server.js",
     "build": "ng build --configuration production --output-path=Api/wwwroot",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
