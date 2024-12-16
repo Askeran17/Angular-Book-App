@@ -178,7 +178,12 @@ app.MapReverseProxy();
 
 app.MapControllers();
 
+app.UseCors(builder =>
+    builder.WithOrigins("http://localhost:4200", "https://angular-book-app-eeb487910d5c.herokuapp.com")
+           .AllowAnyMethod()
+           .AllowAnyHeader()
+           .AllowCredentials());
+
 app.Run();
 
 public partial class Program { }
-
