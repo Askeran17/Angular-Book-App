@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "concurrently \"cd Api && dotnet publish -c Release -o out && cd out && dotnet Api.dll --urls=http://*:5089\" \"node server.js\"",
+    "start": "node server.js",
     "build": "ng build --configuration production --output-path=Api/wwwroot",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
@@ -27,7 +27,6 @@
     "bcryptjs": "^2.4.3",
     "bootstrap": "^5.3.3",
     "compression": "^1.7.5",
-    "concurrently": "^7.6.0",
     "dotenv": "^10.0.0",
     "express": "^4.18.2",
     "font-awesome": "^4.7.0",
