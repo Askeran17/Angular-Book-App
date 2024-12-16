@@ -15,6 +15,7 @@ DotNetEnv.Env.Load();
 // Debug output to verify environment variables
 var databaseUrl = Environment.GetEnvironmentVariable("DATABASE_URL");
 Console.WriteLine($"DATABASE_URL: {databaseUrl}");
+Console.WriteLine($"Environment: {builder.Environment.EnvironmentName}");
 
 // Add services to the container.
 builder.Services.AddControllers();

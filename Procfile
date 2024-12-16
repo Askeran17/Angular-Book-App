@@ -1,2 +1,1 @@
-// filepath: /Users/mihailataev/Desktop/Site/testapi_backup/Procfile
-web: npm start
+web: concurrently "cd frontend && yarn start" "cd Api && dotnet run"

@@ -34,7 +34,7 @@ app.post('/api/auth/login', (req, res) => {
   const { username, password } = req.body;
   const user = users.find(u => u.username === username);
   if (user && bcrypt.compareSync(password, user.password)) {
-    const token = jwt.sign({ username: user.username }, 'your_jwt_secret');
+    const token = jwt.sign({ username: user.username }, process.env.JWT_SECRET);
     res.json({ token });
   } else {
     res.status(401).send('Invalid credentials');
@@ -74,6 +74,7 @@ const PORT = process.env.PORT || 8080;
 const server = http.createServer(app);
 server.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
+  console.log(`Environment: ${process.env.NODE_ENV}`);
 });
 
 
