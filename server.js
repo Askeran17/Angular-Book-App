@@ -56,7 +56,7 @@ app.get('/api/protected', (req, res) => {
 
 // Proxy API requests to .NET Core server
 app.use('/api', createProxyMiddleware({
-  target: 'http://localhost:5089', // URL вашего .NET сервера
+  target: process.env.API_URL || 'http://localhost:5089', // URL вашего .NET сервера
   changeOrigin: true,
   logLevel: 'debug', // Добавьте это для логирования
   onError: (err, req, res) => {
