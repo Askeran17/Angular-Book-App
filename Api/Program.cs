@@ -10,7 +10,7 @@ using Yarp.ReverseProxy.Configuration;
 var builder = WebApplication.CreateBuilder(args);
 
 // Load environment variables from .env file
-DotNetEnv.Env.Load("../.env");
+DotNetEnv.Env.Load();
 
 // Debug output to verify environment variables
 var databaseUrl = Environment.GetEnvironmentVariable("DATABASE_URL");
@@ -30,17 +30,16 @@ builder.Services.AddCors(options =>
 });
 
 // Configure JWT authentication
-var jwtSettings = builder.Configuration.GetSection("Jwt");
-var jwtKey = jwtSettings["Key"];
+var jwtKey = Environment.GetEnvironmentVariable("JWT_SECRET");
 if (string.IsNullOrEmpty(jwtKey))
 {
-    throw new ArgumentNullException("Jwt:Key", "JWT Key is not configured.");
+    throw new ArgumentNullException("JWT_SECRET", "JWT Key is not configured.");
 }
 
 var keyBytes = Encoding.UTF8.GetBytes(jwtKey);
 if (keyBytes.Length < 16) // Ensure the key is at least 128 bits (16 bytes)
 {
-    throw new ArgumentException("Jwt:Key must be at least 128 bits (16 bytes) long.");
+    throw new ArgumentException("JWT_SECRET must be at least 128 bits (16 bytes) long.");
 }
 
 builder.Services.AddAuthentication(options =>
@@ -50,8 +49,8 @@ builder.Services.AddAuthentication(options =>
 })
 .AddJwtBearer(options =>
 {
-    var issuer = jwtSettings["Issuer"];
-    var audience = jwtSettings["Audience"];
+    var issuer = builder.Configuration["Jwt:Issuer"];
+    var audience = builder.Configuration["Jwt:Audience"];
 
     options.TokenValidationParameters = new TokenValidationParameters
     {
