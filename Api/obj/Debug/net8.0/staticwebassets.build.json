@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qiSsNkYyRzF/eLgItkLw0K/ngORT8VQQhae3HubGxk8=",
+  "Hash": "MkRCJY6Dq2Ru2WmM6CL/2TCtiMPc4l5x1N4+U17ywLY=",
   "Source": "Api",
   "BasePath": "_content/Api",
   "Mode": "Default",
@@ -16,6 +16,63 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/123.76ba34d43a98c79f.js",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
+      "BasePath": "_content/Api",
+      "RelativePath": "123.76ba34d43a98c79f.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/123.76ba34d43a98c79f.js"
+    },
+    {
+      "Identity": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/148.3d96d036faca9e06.js",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
+      "BasePath": "_content/Api",
+      "RelativePath": "148.3d96d036faca9e06.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/148.3d96d036faca9e06.js"
+    },
+    {
+      "Identity": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/325.9b9b6a400b44f0f4.js",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
+      "BasePath": "_content/Api",
+      "RelativePath": "325.9b9b6a400b44f0f4.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/325.9b9b6a400b44f0f4.js"
+    },
     {
       "Identity": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/3rdpartylicenses.txt",
       "SourceId": "Api",
@@ -34,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/3rdpartylicenses.txt"
+    },
+    {
+      "Identity": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/common.a3e9444e86d51be7.js",
+      "SourceId": "Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
+      "BasePath": "_content/Api",
+      "RelativePath": "common.a3e9444e86d51be7.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/common.a3e9444e86d51be7.js"
     },
     {
       "Identity": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/fontawesome-webfont.2b13baa7dd4f54c9.eot",
@@ -150,12 +226,12 @@
       "OriginalItemSpec": "wwwroot/index.html"
     },
     {
-      "Identity": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/main.dfc8f5e11f7a605b.js",
+      "Identity": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/main.c722f4dfaff9931a.js",
       "SourceId": "Api",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "main.dfc8f5e11f7a605b.js",
+      "RelativePath": "main.c722f4dfaff9931a.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,15 +242,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/main.dfc8f5e11f7a605b.js"
+      "OriginalItemSpec": "wwwroot/main.c722f4dfaff9931a.js"
     },
     {
-      "Identity": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/polyfills.e89b70d436a56044.js",
+      "Identity": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/polyfills.08b5163592c4c594.js",
       "SourceId": "Api",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "polyfills.e89b70d436a56044.js",
+      "RelativePath": "polyfills.08b5163592c4c594.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,15 +261,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/polyfills.e89b70d436a56044.js"
+      "OriginalItemSpec": "wwwroot/polyfills.08b5163592c4c594.js"
     },
     {
-      "Identity": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/runtime.8491113fba0fbe05.js",
+      "Identity": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/runtime.9ab81b6586345b25.js",
       "SourceId": "Api",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "runtime.8491113fba0fbe05.js",
+      "RelativePath": "runtime.9ab81b6586345b25.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,7 +280,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/runtime.8491113fba0fbe05.js"
+      "OriginalItemSpec": "wwwroot/runtime.9ab81b6586345b25.js"
     },
     {
       "Identity": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/styles.37c647e3154bc9eb.css",

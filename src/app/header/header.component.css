@@ -8,3 +8,7 @@
   color: #007bff; /* Change the color on hover */
   transform: scale(1.1); /* Slightly enlarge the logo on hover */
 }
+
+.nav-link {
+  cursor: pointer;
+}

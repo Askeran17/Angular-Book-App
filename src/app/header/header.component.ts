@@ -1,4 +1,3 @@
-// src/app/header/header.component.ts
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
@@ -17,5 +16,9 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
     console.log('HeaderComponent initialized');
     console.log('AuthService isAuthenticated:', this.authService.isAuthenticated());
+  }
+
+  logout() {
+    this.authService.logout();
   }
 }
