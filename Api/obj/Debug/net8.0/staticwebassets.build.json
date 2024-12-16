@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mwf+L9+SA9EfhYdMgsVNXXEOBfG9cm8ry2j5KZ9XCkc=",
+  "Hash": "lbmbRD2z9AIlpr0koEihGDNR8RWdsw26uc8ltebO1c4=",
   "Source": "Api",
   "BasePath": "_content/Api",
   "Mode": "Default",
@@ -22,17 +22,15 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "123.76ba34d43a98c79f#[.{fingerprint}]?.js",
+      "RelativePath": "123.76ba34d43a98c79f.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dd20wpddpv",
-      "Integrity": "/7/PgPVw9zKbdEeT6JwPr31irAUkRM7S4Ac7VzWm+5Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/123.76ba34d43a98c79f.js"
@@ -43,17 +41,15 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "148.3d96d036faca9e06#[.{fingerprint}]?.js",
+      "RelativePath": "148.3d96d036faca9e06.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "u67f5hnjwl",
-      "Integrity": "2vSin55/DlH44a0Lp0e4Oh3X68iiRODBBbCvvldUlxw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/148.3d96d036faca9e06.js"
@@ -64,17 +60,15 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "325.9b9b6a400b44f0f4#[.{fingerprint}]?.js",
+      "RelativePath": "325.9b9b6a400b44f0f4.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "v16wmvpzpx",
-      "Integrity": "o+iczQKeozstfjil53TcUCbVy7841DsFtuegruUP43E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/325.9b9b6a400b44f0f4.js"
@@ -85,17 +79,15 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "3rdpartylicenses#[.{fingerprint}]?.txt",
+      "RelativePath": "3rdpartylicenses.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "uydnwetv3l",
-      "Integrity": "dk6fd8gdaqoXNs99l5hZ2IDPyXjWmpLMrke9KA9kd7I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/3rdpartylicenses.txt"
@@ -106,17 +98,15 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "common.69edca9d8185c4b5#[.{fingerprint}]?.js",
+      "RelativePath": "common.69edca9d8185c4b5.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vcrsp2qvc8",
-      "Integrity": "f9rXqrwWfDgAmmsJ8cgvMEMJRRr7PV4Iqnn4mlEJmVQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/common.69edca9d8185c4b5.js"
@@ -127,17 +117,15 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "fontawesome-webfont.2b13baa7dd4f54c9#[.{fingerprint}]?.eot",
+      "RelativePath": "fontawesome-webfont.2b13baa7dd4f54c9.eot",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pz0qgnv39v",
-      "Integrity": "e/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/fontawesome-webfont.2b13baa7dd4f54c9.eot"
@@ -148,17 +136,15 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "fontawesome-webfont.8a7cb27d142e3e19#[.{fingerprint}]?.ttf",
+      "RelativePath": "fontawesome-webfont.8a7cb27d142e3e19.ttf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "yex6mt8az7",
-      "Integrity": "qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/fontawesome-webfont.8a7cb27d142e3e19.ttf"
@@ -169,17 +155,15 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "fontawesome-webfont.cf011583fb81df9f#[.{fingerprint}]?.woff",
+      "RelativePath": "fontawesome-webfont.cf011583fb81df9f.woff",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "eyrbpue749",
-      "Integrity": "ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/fontawesome-webfont.cf011583fb81df9f.woff"
@@ -190,17 +174,15 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "fontawesome-webfont.da909aa098b0ee2d#[.{fingerprint}]?.svg",
+      "RelativePath": "fontawesome-webfont.da909aa098b0ee2d.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dosqy3kf6t",
-      "Integrity": "rWFXkmwWIrpOHQPUePFUE2hSS/xG9R5C/g2UX37zI+Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/fontawesome-webfont.da909aa098b0ee2d.svg"
@@ -211,17 +193,15 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "fontawesome-webfont.e9955780856cf8aa#[.{fingerprint}]?.woff2",
+      "RelativePath": "fontawesome-webfont.e9955780856cf8aa.woff2",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2hr3gl3r5x",
-      "Integrity": "Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/fontawesome-webfont.e9955780856cf8aa.woff2"
@@ -232,17 +212,15 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "index#[.{fingerprint}]?.html",
+      "RelativePath": "index.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ybir9eiygv",
-      "Integrity": "jtYOBGL8rdtqYcgtcLYNve/thCdghYkJVI2EjoRGkD0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
@@ -253,17 +231,15 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "main.b1d155cb277ef1ab#[.{fingerprint}]?.js",
+      "RelativePath": "main.b1d155cb277ef1ab.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "sx2cpk49kz",
-      "Integrity": "4KK6uc4DXZklZnj4WblbDmKQ5safxjbOqfOrEQvtBwc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/main.b1d155cb277ef1ab.js"
@@ -274,17 +250,15 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "polyfills.08b5163592c4c594#[.{fingerprint}]?.js",
+      "RelativePath": "polyfills.08b5163592c4c594.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lgsxpqhsv0",
-      "Integrity": "VX87KRLlEq8WW8Rd3gEVFGA6fNE1/0tPvNPStr0ExUo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/polyfills.08b5163592c4c594.js"
@@ -295,17 +269,15 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "runtime.33e1b78c45cee6bb#[.{fingerprint}]?.js",
+      "RelativePath": "runtime.33e1b78c45cee6bb.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "405kzx9jct",
-      "Integrity": "rDK7l6zH/1jfr+gOQ/XyPFb7uLVqfK9+DXNGH57+kU0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/runtime.33e1b78c45cee6bb.js"
@@ -316,1252 +288,18 @@
       "SourceType": "Discovered",
       "ContentRoot": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/",
       "BasePath": "_content/Api",
-      "RelativePath": "styles.37c647e3154bc9eb#[.{fingerprint}]?.css",
+      "RelativePath": "styles.37c647e3154bc9eb.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4rre0xxhtn",
-      "Integrity": "AAh6DTDDrsagBqWdWpGURm+tIPC0ejwdvhAVqSiIT3A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/styles.37c647e3154bc9eb.css"
-    }
-  ],
-  "Endpoints": [
-    {
-      "Route": "123.76ba34d43a98c79f.dd20wpddpv.js",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/123.76ba34d43a98c79f.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3330"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/7/PgPVw9zKbdEeT6JwPr31irAUkRM7S4Ac7VzWm+5Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dd20wpddpv"
-        },
-        {
-          "Name": "label",
-          "Value": "123.76ba34d43a98c79f.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/7/PgPVw9zKbdEeT6JwPr31irAUkRM7S4Ac7VzWm+5Y="
-        }
-      ]
-    },
-    {
-      "Route": "123.76ba34d43a98c79f.js",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/123.76ba34d43a98c79f.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3330"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/7/PgPVw9zKbdEeT6JwPr31irAUkRM7S4Ac7VzWm+5Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-/7/PgPVw9zKbdEeT6JwPr31irAUkRM7S4Ac7VzWm+5Y="
-        }
-      ]
-    },
-    {
-      "Route": "148.3d96d036faca9e06.js",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/148.3d96d036faca9e06.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3962"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2vSin55/DlH44a0Lp0e4Oh3X68iiRODBBbCvvldUlxw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2vSin55/DlH44a0Lp0e4Oh3X68iiRODBBbCvvldUlxw="
-        }
-      ]
-    },
-    {
-      "Route": "148.3d96d036faca9e06.u67f5hnjwl.js",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/148.3d96d036faca9e06.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3962"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2vSin55/DlH44a0Lp0e4Oh3X68iiRODBBbCvvldUlxw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "u67f5hnjwl"
-        },
-        {
-          "Name": "label",
-          "Value": "148.3d96d036faca9e06.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-2vSin55/DlH44a0Lp0e4Oh3X68iiRODBBbCvvldUlxw="
-        }
-      ]
-    },
-    {
-      "Route": "325.9b9b6a400b44f0f4.js",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/325.9b9b6a400b44f0f4.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3925"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"o+iczQKeozstfjil53TcUCbVy7841DsFtuegruUP43E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-o+iczQKeozstfjil53TcUCbVy7841DsFtuegruUP43E="
-        }
-      ]
-    },
-    {
-      "Route": "325.9b9b6a400b44f0f4.v16wmvpzpx.js",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/325.9b9b6a400b44f0f4.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3925"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"o+iczQKeozstfjil53TcUCbVy7841DsFtuegruUP43E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v16wmvpzpx"
-        },
-        {
-          "Name": "label",
-          "Value": "325.9b9b6a400b44f0f4.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-o+iczQKeozstfjil53TcUCbVy7841DsFtuegruUP43E="
-        }
-      ]
-    },
-    {
-      "Route": "3rdpartylicenses.txt",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/3rdpartylicenses.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "19638"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dk6fd8gdaqoXNs99l5hZ2IDPyXjWmpLMrke9KA9kd7I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dk6fd8gdaqoXNs99l5hZ2IDPyXjWmpLMrke9KA9kd7I="
-        }
-      ]
-    },
-    {
-      "Route": "3rdpartylicenses.uydnwetv3l.txt",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/3rdpartylicenses.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "19638"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dk6fd8gdaqoXNs99l5hZ2IDPyXjWmpLMrke9KA9kd7I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "uydnwetv3l"
-        },
-        {
-          "Name": "label",
-          "Value": "3rdpartylicenses.txt"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-dk6fd8gdaqoXNs99l5hZ2IDPyXjWmpLMrke9KA9kd7I="
-        }
-      ]
-    },
-    {
-      "Route": "common.69edca9d8185c4b5.js",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/common.69edca9d8185c4b5.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "801"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"f9rXqrwWfDgAmmsJ8cgvMEMJRRr7PV4Iqnn4mlEJmVQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-f9rXqrwWfDgAmmsJ8cgvMEMJRRr7PV4Iqnn4mlEJmVQ="
-        }
-      ]
-    },
-    {
-      "Route": "common.69edca9d8185c4b5.vcrsp2qvc8.js",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/common.69edca9d8185c4b5.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "801"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"f9rXqrwWfDgAmmsJ8cgvMEMJRRr7PV4Iqnn4mlEJmVQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vcrsp2qvc8"
-        },
-        {
-          "Name": "label",
-          "Value": "common.69edca9d8185c4b5.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-f9rXqrwWfDgAmmsJ8cgvMEMJRRr7PV4Iqnn4mlEJmVQ="
-        }
-      ]
-    },
-    {
-      "Route": "fontawesome-webfont.2b13baa7dd4f54c9.eot",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/fontawesome-webfont.2b13baa7dd4f54c9.eot",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "165742"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/vnd.ms-fontobject"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"e/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-e/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk="
-        }
-      ]
-    },
-    {
-      "Route": "fontawesome-webfont.2b13baa7dd4f54c9.pz0qgnv39v.eot",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/fontawesome-webfont.2b13baa7dd4f54c9.eot",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "165742"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/vnd.ms-fontobject"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"e/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pz0qgnv39v"
-        },
-        {
-          "Name": "label",
-          "Value": "fontawesome-webfont.2b13baa7dd4f54c9.eot"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-e/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk="
-        }
-      ]
-    },
-    {
-      "Route": "fontawesome-webfont.8a7cb27d142e3e19.ttf",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/fontawesome-webfont.8a7cb27d142e3e19.ttf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "165548"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/x-font-ttf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg="
-        }
-      ]
-    },
-    {
-      "Route": "fontawesome-webfont.8a7cb27d142e3e19.yex6mt8az7.ttf",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/fontawesome-webfont.8a7cb27d142e3e19.ttf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "165548"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/x-font-ttf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "yex6mt8az7"
-        },
-        {
-          "Name": "label",
-          "Value": "fontawesome-webfont.8a7cb27d142e3e19.ttf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg="
-        }
-      ]
-    },
-    {
-      "Route": "fontawesome-webfont.cf011583fb81df9f.eyrbpue749.woff",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/fontawesome-webfont.cf011583fb81df9f.woff",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "98024"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/font-woff"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "eyrbpue749"
-        },
-        {
-          "Name": "label",
-          "Value": "fontawesome-webfont.cf011583fb81df9f.woff"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc="
-        }
-      ]
-    },
-    {
-      "Route": "fontawesome-webfont.cf011583fb81df9f.woff",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/fontawesome-webfont.cf011583fb81df9f.woff",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "98024"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/font-woff"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc="
-        }
-      ]
-    },
-    {
-      "Route": "fontawesome-webfont.da909aa098b0ee2d.dosqy3kf6t.svg",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/fontawesome-webfont.da909aa098b0ee2d.svg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "444379"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/svg+xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rWFXkmwWIrpOHQPUePFUE2hSS/xG9R5C/g2UX37zI+Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dosqy3kf6t"
-        },
-        {
-          "Name": "label",
-          "Value": "fontawesome-webfont.da909aa098b0ee2d.svg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rWFXkmwWIrpOHQPUePFUE2hSS/xG9R5C/g2UX37zI+Q="
-        }
-      ]
-    },
-    {
-      "Route": "fontawesome-webfont.da909aa098b0ee2d.svg",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/fontawesome-webfont.da909aa098b0ee2d.svg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "444379"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/svg+xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rWFXkmwWIrpOHQPUePFUE2hSS/xG9R5C/g2UX37zI+Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-rWFXkmwWIrpOHQPUePFUE2hSS/xG9R5C/g2UX37zI+Q="
-        }
-      ]
-    },
-    {
-      "Route": "fontawesome-webfont.e9955780856cf8aa.2hr3gl3r5x.woff2",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/fontawesome-webfont.e9955780856cf8aa.woff2",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "77160"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "font/woff2"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2hr3gl3r5x"
-        },
-        {
-          "Name": "label",
-          "Value": "fontawesome-webfont.e9955780856cf8aa.woff2"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4="
-        }
-      ]
-    },
-    {
-      "Route": "fontawesome-webfont.e9955780856cf8aa.woff2",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/fontawesome-webfont.e9955780856cf8aa.woff2",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "77160"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "font/woff2"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8/4="
-        }
-      ]
-    },
-    {
-      "Route": "index.html",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5723"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jtYOBGL8rdtqYcgtcLYNve/thCdghYkJVI2EjoRGkD0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jtYOBGL8rdtqYcgtcLYNve/thCdghYkJVI2EjoRGkD0="
-        }
-      ]
-    },
-    {
-      "Route": "index.ybir9eiygv.html",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5723"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jtYOBGL8rdtqYcgtcLYNve/thCdghYkJVI2EjoRGkD0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ybir9eiygv"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-jtYOBGL8rdtqYcgtcLYNve/thCdghYkJVI2EjoRGkD0="
-        }
-      ]
-    },
-    {
-      "Route": "main.b1d155cb277ef1ab.js",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/main.b1d155cb277ef1ab.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "303177"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4KK6uc4DXZklZnj4WblbDmKQ5safxjbOqfOrEQvtBwc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4KK6uc4DXZklZnj4WblbDmKQ5safxjbOqfOrEQvtBwc="
-        }
-      ]
-    },
-    {
-      "Route": "main.b1d155cb277ef1ab.sx2cpk49kz.js",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/main.b1d155cb277ef1ab.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "303177"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4KK6uc4DXZklZnj4WblbDmKQ5safxjbOqfOrEQvtBwc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "sx2cpk49kz"
-        },
-        {
-          "Name": "label",
-          "Value": "main.b1d155cb277ef1ab.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4KK6uc4DXZklZnj4WblbDmKQ5safxjbOqfOrEQvtBwc="
-        }
-      ]
-    },
-    {
-      "Route": "polyfills.08b5163592c4c594.js",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/polyfills.08b5163592c4c594.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "34806"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VX87KRLlEq8WW8Rd3gEVFGA6fNE1/0tPvNPStr0ExUo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VX87KRLlEq8WW8Rd3gEVFGA6fNE1/0tPvNPStr0ExUo="
-        }
-      ]
-    },
-    {
-      "Route": "polyfills.08b5163592c4c594.lgsxpqhsv0.js",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/polyfills.08b5163592c4c594.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "34806"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VX87KRLlEq8WW8Rd3gEVFGA6fNE1/0tPvNPStr0ExUo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lgsxpqhsv0"
-        },
-        {
-          "Name": "label",
-          "Value": "polyfills.08b5163592c4c594.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-VX87KRLlEq8WW8Rd3gEVFGA6fNE1/0tPvNPStr0ExUo="
-        }
-      ]
-    },
-    {
-      "Route": "runtime.33e1b78c45cee6bb.405kzx9jct.js",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/runtime.33e1b78c45cee6bb.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2792"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rDK7l6zH/1jfr+gOQ/XyPFb7uLVqfK9+DXNGH57+kU0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "405kzx9jct"
-        },
-        {
-          "Name": "label",
-          "Value": "runtime.33e1b78c45cee6bb.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rDK7l6zH/1jfr+gOQ/XyPFb7uLVqfK9+DXNGH57+kU0="
-        }
-      ]
-    },
-    {
-      "Route": "runtime.33e1b78c45cee6bb.js",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/runtime.33e1b78c45cee6bb.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2792"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rDK7l6zH/1jfr+gOQ/XyPFb7uLVqfK9+DXNGH57+kU0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-rDK7l6zH/1jfr+gOQ/XyPFb7uLVqfK9+DXNGH57+kU0="
-        }
-      ]
-    },
-    {
-      "Route": "styles.37c647e3154bc9eb.4rre0xxhtn.css",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/styles.37c647e3154bc9eb.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "254434"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AAh6DTDDrsagBqWdWpGURm+tIPC0ejwdvhAVqSiIT3A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "4rre0xxhtn"
-        },
-        {
-          "Name": "label",
-          "Value": "styles.37c647e3154bc9eb.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-AAh6DTDDrsagBqWdWpGURm+tIPC0ejwdvhAVqSiIT3A="
-        }
-      ]
-    },
-    {
-      "Route": "styles.37c647e3154bc9eb.css",
-      "AssetFile": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/styles.37c647e3154bc9eb.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "254434"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AAh6DTDDrsagBqWdWpGURm+tIPC0ejwdvhAVqSiIT3A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Dec 2024 18:46:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-AAh6DTDDrsagBqWdWpGURm+tIPC0ejwdvhAVqSiIT3A="
-        }
-      ]
     }
   ]
 }
