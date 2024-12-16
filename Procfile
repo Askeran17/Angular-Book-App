@@ -1,1 +1,1 @@
-web: cd Api && dotnet Api.dll --urls=http://*:5089 & node server.js
+web: concurrently "cd Api && dotnet Api.dll --urls=http://*:5089" "node server.js"
