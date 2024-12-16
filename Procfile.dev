@@ -1,0 +1,2 @@
+web-backend: cd Api && dotnet run --urls=http://localhost:5089
+web-frontend: ng serve --port 4200

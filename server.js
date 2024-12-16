@@ -56,7 +56,7 @@ app.get('/api/protected', (req, res) => {
 
 // Proxy API requests to .NET Core server
 app.use('/api', createProxyMiddleware({
-  target: 'https://angular-book-app-eeb487910d5c.herokuapp.com', // URL вашего .NET сервера на Heroku
+  target: 'http://localhost:5089', // URL вашего .NET сервера
   changeOrigin: true,
   logLevel: 'debug', // Добавьте это для логирования
   onError: (err, req, res) => {
@@ -70,7 +70,7 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'Api/wwwroot/index.html'));
 });
 
-// Start the app by listening on the default Heroku port
+// Start the app by listening on the default port
 const PORT = process.env.PORT || 8080;
 const server = http.createServer(app);
 server.listen(PORT, () => {
