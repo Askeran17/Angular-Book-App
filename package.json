@@ -3,13 +3,13 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
-    "build": "ng build --prod --output-path=Api/wwwroot",
+    "start": "concurrently \"cd Api && dotnet run --urls=http://*:5089\" \"ng serve --port 4200\"",
+    "build": "ng build --configuration production --output-path=Api/wwwroot",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --prod --output-path=Api/wwwroot"
+    "postinstall": "ng build --configuration production --output-path=Api/wwwroot"
   },
   "private": true,
   "dependencies": {
