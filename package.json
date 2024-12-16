@@ -3,10 +3,14 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "start:frontend": "node server.js",
+    "start:backend": "dotnet Api/Api.dll",
     "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
     "postinstall": "ng build --configuration production"
   },
   "private": true,
@@ -30,7 +34,8 @@
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3",
-    "http-proxy-middleware": "^2.0.6"
+    "http-proxy-middleware": "^2.0.6",
+    "concurrently": "^7.0.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^18.0.0",
