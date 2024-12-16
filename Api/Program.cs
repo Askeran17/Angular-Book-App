@@ -25,7 +25,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowSpecificOrigin",
         builder =>
         {
-            builder.WithOrigins("http://localhost:4200", "https://angular-book-app.onrender.com", "https://angular-book-app-eeb487910d5c.herokuapp.com")
+            builder.WithOrigins("http://localhost:4200", "http://localhost:8080", "https://angular-book-app.onrender.com", "https://angular-book-app-eeb487910d5c.herokuapp.com")
                    .AllowAnyMethod()
                    .AllowAnyHeader()
                    .AllowCredentials();
@@ -150,7 +150,8 @@ builder.Services.AddReverseProxy()
             ClusterId = "angular-cluster",
             Destinations = new Dictionary<string, DestinationConfig>
             {
-                { "angular-destination", new DestinationConfig { Address = "http://localhost:4200" } }
+                { "angular-destination-4200", new DestinationConfig { Address = "http://localhost:4200" } },
+                { "angular-destination-8080", new DestinationConfig { Address = "http://localhost:8080" } }
             }
         }
     });
@@ -177,12 +178,6 @@ app.UseAuthorization();
 app.MapReverseProxy();
 
 app.MapControllers();
-
-app.UseCors(builder =>
-    builder.WithOrigins("http://localhost:4200", "https://angular-book-app-eeb487910d5c.herokuapp.com")
-           .AllowAnyMethod()
-           .AllowAnyHeader()
-           .AllowCredentials());
 
 app.Run();
 
