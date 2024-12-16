@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "ng build --configuration production --output-path=Api/wwwroot",
-    "heroku-postbuild": "cd Api && dotnet publish -c Release -o out && cd .. && ng build --configuration production --output-path=Api/wwwroot"
+    "heroku-postbuild": "ng build --configuration production --output-path=Api/wwwroot && cd Api && dotnet publish -c Release -o out && cd out && dotnet Api.dll --urls=http://*:5089"
   },
   "private": true,
   "dependencies": {
