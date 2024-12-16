@@ -27,7 +27,8 @@ builder.Services.AddCors(options =>
         {
             builder.WithOrigins("http://localhost:4200", "https://angular-book-app.onrender.com", "https://angular-book-app-eeb487910d5c.herokuapp.com")
                    .AllowAnyMethod()
-                   .AllowAnyHeader();
+                   .AllowAnyHeader()
+                   .AllowCredentials();
         });
 });
 
