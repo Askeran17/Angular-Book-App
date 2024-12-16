@@ -17,8 +17,8 @@
       "PackagePath": "staticwebassets/3rdpartylicenses.txt"
     },
     {
-      "Id": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/common.a3e9444e86d51be7.js",
-      "PackagePath": "staticwebassets/common.a3e9444e86d51be7.js"
+      "Id": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/common.69edca9d8185c4b5.js",
+      "PackagePath": "staticwebassets/common.69edca9d8185c4b5.js"
     },
     {
       "Id": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/fontawesome-webfont.2b13baa7dd4f54c9.eot",
@@ -53,12 +53,16 @@
       "PackagePath": "staticwebassets/polyfills.08b5163592c4c594.js"
     },
     {
-      "Id": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/runtime.9ab81b6586345b25.js",
-      "PackagePath": "staticwebassets/runtime.9ab81b6586345b25.js"
+      "Id": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/runtime.33e1b78c45cee6bb.js",
+      "PackagePath": "staticwebassets/runtime.33e1b78c45cee6bb.js"
     },
     {
       "Id": "/Users/mihailataev/Desktop/Site/testapi_backup/Api/wwwroot/styles.37c647e3154bc9eb.css",
       "PackagePath": "staticwebassets/styles.37c647e3154bc9eb.css"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Api.Microsoft.AspNetCore.StaticWebAssets.props",
