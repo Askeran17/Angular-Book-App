@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
+    "start": "concurrently \"cd Api && dotnet publish -c Release -o out && cd out && dotnet Api.dll --urls=http://*:5089\" \"node server.js\"",
     "build": "ng build --configuration production --output-path=Api/wwwroot",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
