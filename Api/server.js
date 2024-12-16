@@ -43,7 +43,7 @@ app.get('/api/protected', authenticateToken, (req, res) => {
   res.send('This is a protected route');
 });
 
-// Start the app by listening on the default Heroku port
+// Start the app by listening on the default Heroku
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Backend server is running on port ${PORT}`);
