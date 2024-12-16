@@ -1,4 +1,3 @@
-// filepath: /Users/mihailataev/Desktop/Site/testapi_backup/server.js
 require('dotenv').config();
 const express = require('express');
 const path = require('path');
@@ -57,13 +56,13 @@ app.get('/api/protected', (req, res) => {
 
 // Proxy API requests to .NET Core server
 app.use('/api', createProxyMiddleware({
-    target: process.env.API_URL || 'http://localhost:5089/api', // URL вашего .NET 8 сервера
-    changeOrigin: true,
-    logLevel: 'debug', // Добавьте это для логирования
-    onError: (err, req, res) => {
-        console.error('Proxy error:', err);
-        res.status(500).send('Proxy error');
-    }
+  target: process.env.API_URL || 'http://localhost:5089', // URL вашего .NET сервера
+  changeOrigin: true,
+  logLevel: 'debug', // Добавьте это для логирования
+  onError: (err, req, res) => {
+    console.error('Proxy error:', err);
+    res.status(500).send('Proxy error');
+  }
 }));
 
 // Catch all other routes and return the index file
@@ -77,6 +76,7 @@ const server = http.createServer(app);
 server.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
   console.log(`Environment: ${process.env.NODE_ENV}`);
+  console.log(`ASPNETCORE_ENVIRONMENT: ${process.env.ASPNETCORE_ENVIRONMENT}`);
 });
 
 

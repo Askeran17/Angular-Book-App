@@ -1,6 +1,6 @@
 {
   "/api": {
-    "target": "http://localhost:5089",
+    "target": "https://angular-book-app-eeb487910d5c.herokuapp.com",
     "secure": false,
     "changeOrigin": true,
     "logLevel": "debug"

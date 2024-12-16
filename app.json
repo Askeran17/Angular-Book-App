@@ -1,18 +1,19 @@
 {
-    "name": "MyApp",
-    "description": "A .NET and Angular application",
-    "scripts": {
-      "postdeploy": "cd Api && dotnet ef database update"
+  "name": "MyApp",
+  "description": "A .NET and Angular application",
+  "scripts": {
+    "postdeploy": "node server.js"
+  },
+  "env": {
+    "ASPNETCORE_ENVIRONMENT": "Production",
+    "API_URL": "https://angular-book-app-eeb487910d5c.herokuapp.com"
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
     },
-    "env": {
-      "ASPNETCORE_ENVIRONMENT": "Production"
-    },
-    "buildpacks": [
-      {
-        "url": "heroku/nodejs"
-      },
-      {
-        "url": "heroku/dotnet"
-      }
-    ]
-  }
+    {
+      "url": "heroku/dotnet"
+    }
+  ]
+}

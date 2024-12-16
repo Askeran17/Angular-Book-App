@@ -6,15 +6,17 @@ using MyApp.Data;
 using Npgsql;
 using System.Text;
 using Yarp.ReverseProxy.Configuration;
+using DotNetEnv;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Load environment variables from .env file
-DotNetEnv.Env.Load("../.env");
+// Load environment variables from .env file in the root directory
+Env.Load("../.env");
 
 // Debug output to verify environment variables
 var databaseUrl = Environment.GetEnvironmentVariable("DATABASE_URL");
 Console.WriteLine($"DATABASE_URL: {databaseUrl}");
+Console.WriteLine($"Environment: {builder.Environment.EnvironmentName}");
 
 // Add services to the container.
 builder.Services.AddControllers();
@@ -23,7 +25,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowSpecificOrigin",
         builder =>
         {
-            builder.WithOrigins("http://localhost:4200", "https://angular-book-app.onrender.com")
+            builder.WithOrigins("http://localhost:4200", "https://angular-book-app.onrender.com", "https://angular-book-app-eeb487910d5c.herokuapp.com")
                    .AllowAnyMethod()
                    .AllowAnyHeader();
         });
