@@ -11,3 +11,11 @@
   font-size: 0.9rem;
   color: #6c757d;
 }
+
+.quote-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+

@@ -46,4 +46,8 @@ export class BookListComponent implements OnInit {
       });
     }
   }
+
+  formatDate(dateString: string): string {
+    return dateString.split('T')[0];
+  }
 }

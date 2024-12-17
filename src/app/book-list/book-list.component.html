@@ -4,10 +4,10 @@
   <button class="btn btn-success mb-4" (click)="navigateToAddBook()">Lägg till ny bok</button>
 
   <ul class="list-group mb-4">
-    <li *ngFor="let book of books" class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-      <span class="book-list-text">{{ book.title }} by {{ book.author }} ({{ book.publishDate }})</span>
-      <div class="mt-2 mt-md-0">
-        <button class="btn btn-primary btn-sm me-2" (click)="book.id !== undefined && editBook(book.id)">Redigera</button>
+    <li *ngFor="let book of books" class="list-group-item d-flex flex-column align-items-start">
+      <span class="book-list-text">{{ book.title }} by {{ book.author }} (publicerad den {{ formatDate(book.publishDate) }})</span>
+      <div class="book-buttons mt-2">
+        <button class="btn btn-primary btn-sm redigera-btn" (click)="book.id !== undefined && editBook(book.id)">Redigera</button>
         <button class="btn btn-danger btn-sm radera-btn" (click)="deleteBook(book.id)">Radera</button>
       </div>
     </li>

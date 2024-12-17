@@ -32,9 +32,14 @@ export class BookFormComponent implements OnInit {
         this.isEditMode = true;
         this.bookService.getBook(+id).subscribe((book) => {
           this.book = book;
+          this.book.publishDate = this.formatDate(book.publishDate);
         });
       }
     }
+  }
+
+  formatDate(dateString: string): string {
+    return dateString.split('T')[0];
   }
 
   onSubmit() {
